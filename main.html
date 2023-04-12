@@ -8,6 +8,43 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method>
+	<label for="name"></label>
+    Name* <input type="text" name="name" id="name" required>
+		<br>
+	<label for="mail"></label>
+	Email* <input type="email" name="mail" id="email" required>
+		<br>
+	<label for="male" >
+	Gender* <input type="radio" name="gender" id="male">Male
+	</label>
+		<label for="female">
+		<input type="radio" name="gender" id="female">Female
+		</label>
+		<br>
+		<label for="laptop">
+		  Laptop Brands  
+			<select id="laptop">
+			 <option value="apple">Apple</option>
+			 <option value="asus">Asus</option>
+			 <option value="hp">HP</option>
+		   </select>
+		</label>
+		<br>
+		<label for="age">
+			Age* <input type="number" id="age" required>
+		</label>
+		<br>
+		<label for="dob">
+			DOB* <input type="date" id="dob" required>
+		</label>
+		<br>
+		<label for="password">
+			Password* <input type="password" id="password" required>
+		</label>
+		<br>
+		<button>submit</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
