@@ -8,18 +8,20 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form method>
-	<label for="name"></label>
+	<form method="post">
+	<label for="name">
     Name* <input type="text" name="name" id="name" required>
+		</label>
 		<br>
-	<label for="email"></label>
+	<label for="email">
 	Email* <input type="email" name="mail" id="email" required>
+		</label>
 		<br>
 	<label for="male" >
-	Gender* <input type="radio" name="gender" id="male">Male
+	Gender* <input type="radio" name="gender" id="male" required>Male
 	</label>
 		<label for="female">
-		<input type="radio" name="gender" id="female">Female
+		<input type="radio" name="gender" id="female" required>Female
 		</label>
 		<br>
 		<label for="laptop">
@@ -43,7 +45,7 @@
 			Password* <input type="password" id="password" required>
 		</label>
 		<br>
-		<button>submit</button>
+		<button type="submit">submit</button>
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
